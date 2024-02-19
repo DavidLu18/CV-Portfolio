@@ -10089,7 +10089,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color:rgba(220, 53, 69, 0.9)
 }
 
 .dev-icons {
@@ -10121,4 +10121,10 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.hello:link, .hello:visited, .hello:hover {
+  font-size: 110%;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: #20c997;
 }
